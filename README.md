@@ -46,9 +46,9 @@ Use at least sequelize, express, react, and redux when creating this app. You ca
 
 - Views: as a user I...
   * see a list of all campuses on the **Campuses** view
-  * see a list of all students on the **Students** view
+  * see a list of all students on the **Students** view route done
   * see details about a campus on the **Single Campus** view, including that campus's students
-  * see details about a student on the **Single Student** view, including that student's campus
+  * see details about a student on the **Single Student** view,  including that student's campus 
 
 - Actions: as a user I...
   * can create a campus
@@ -62,28 +62,28 @@ Use at least sequelize, express, react, and redux when creating this app. You ca
 
 ```
 GET
-- all campuses
-- a campus by id
-- all students
-- a student by id
+- all campuses done done
+- a campus by id done without students
+- all students done
+- a student by id done
 ```
 
 ```
 POST
-- new campus
-- new student
+- new campus done
+- new student done
 ```
 
-```
+``'
 PUT
-- updated student info for one student
-- updated campus info for one campus
+- updated student info for one student done
+- updated campus info for one campus done
 ```
 
 ```
 DELETE
-- a campus
-- a student
+- a campus done
+- a student done
 ```
 
 ### How to test functionality without a frontend

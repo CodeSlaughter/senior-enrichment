@@ -1,0 +1,161 @@
+body {
+	background-color: #EFEFEF;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+#pageheader {
+	text-align: center
+}
+
+#pageheader {
+	text-align: center
+}
+
+#welcome {
+	text-align: center;
+	font-size: 100px;
+}
+
+#add-content {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	justify-content: center;
+	text-align: center;
+}
+
+nav .navbar #boostrap-overrides {
+	/*background-color: #57ce3e;-->*/
+	background-color: #f7ce3e;
+
+}
+
+#student-card-container {
+	display: flex;
+	flex-direction: row;
+}
+
+#student-card-info {
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+	padding-left: 30px;
+	justify-content: center;
+}
+
+#center-table {
+	text-align: center;
+} 
+
+.btn-article {
+	width: 70px;
+	height: 40px;
+	border-radius: 28px;
+	background: #000000;
+	transition: all 1s;
+	box-shadow: 1px 1px 1px;
+	color: #f7ce3e;
+}
+
+.btn-article:hover {
+	background: -webkit-linear-gradient(left top, #707070, #000000);
+	box-shadow: 5px 5px 5px grey;
+}
+
+button.btn-article p {
+	color: #f7ce3e !important;
+}
+
+ul.nav a {
+	transition: all .75s;
+	text-decoration: none;
+}
+
+ul.nav a:hover {
+	background-color: #000000 !important;
+	color: #efefef !important;
+}
+
+.brand {
+	font-family: 'Lato', sans-serif;
+	font-size: 22px !important;
+}
+
+.inverse-footer {
+	background-color: #a9a9a9;
+	color: #ffffff;
+	padding-top: 20px;
+}
+
+.main-article p{
+	color: #2d3c49 !important;
+	font-size: 20px !important;
+	text-align: left;
+}
+
+.main-article h3{
+	color: #2d3c49 !important;
+	font-size: 50px !important;
+}
+.main-article h4{
+	color: #2d3c49 !important;
+	font-size: 30px !important;
+}
+
+.main-article .byline {
+	color: #2d3c49 !important;
+	font-size: 15px !important;
+	font-weight: 100 !important;
+}
+
+#black {
+	background-color: black;
+	margin-top: 27px;
+	margin-bottom: 30px;
+	color: #f7ce3e;
+}
+
+#black h1 {
+	font-size: 100px ;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+}
+
+#black-super {
+	font-size: 175px !important;
+	font-family: 'Lato', sans-serif !important;
+	font-weight: 400 !important;
+}
+
+#black-smaller {
+	font-size: 80px !important;
+	font-family: 'Lato', sans-serif !important;
+	font-weight: 100 !important;
+}
+
+@media (max-width: 600px) {
+  #black-super {
+	font-size: 55px !important;
+	font-family: 'Lato', sans-serif !important;
+	font-weight: 400 !important;
+	}
+
+	#black h1 {
+	font-size: 33px ;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	}
+	#black-smaller {
+	font-size: 27px !important;
+	font-family: 'Lato', sans-serif !important;
+	font-weight: 100 !important;
+	}
+	ul.nav a {
+	font-size: 10px;
+	}
+
+	.brand {
+	font-size: 15px !important
+	}
+}

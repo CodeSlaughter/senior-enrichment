@@ -1,5 +1,5 @@
 {
-  "name": "senior_enrichment",
+  "name": "university",
   "version": "0.0.1",
   "description": "A review time project",
   "main": "index.js",
@@ -7,6 +7,7 @@
     "test": "mocha **/*.test.js *.test.js",
     "build": "webpack",
     "build-watch": "webpack -w",
+    "seed": "node seed",
     "start": "nodemon server/start.js"
   },
   "keywords": [
@@ -15,17 +16,22 @@
     "skeleton"
   ],
   "dependencies": {
+    "axios": "^0.16.2",
+    "bluebird": "^3.5.1",
     "body-parser": "^1.15.2",
+    "cartoon-avatar": "^1.0.2",
     "chalk": "^1.1.3",
+    "chance": "^1.0.11",
     "express": "^4.14.0",
     "pg": "^6.1.0",
     "pg-native": "^1.10.0",
     "react": "^15.3.2",
+    "react-bootstrap": "^0.31.3",
     "react-dom": "^15.3.2",
     "react-redux": "^4.4.5",
     "react-router-dom": "^4.1.1",
     "redux": "^3.6.0",
-    "redux-logger": "^2.7.0",
+    "redux-logger": "^2.10.2",
     "redux-thunk": "^2.1.0",
     "sequelize": "^4.7.4"
   },
