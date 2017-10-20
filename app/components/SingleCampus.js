@@ -64,7 +64,7 @@ export function SingleCampus(props) {
                         <table className="table table-striped">
                             <thead >
                                 <tr>
-                                    <th>id</th>
+                                    <th>ID#</th>
                                     <th><strong>Student Info</strong></th>
                                 </tr>
                             </thead>
@@ -79,8 +79,8 @@ export function SingleCampus(props) {
                                             <div id="student-card-container">
                                                 <div><img src={`${student.photo}`} /></div>
                                                 <div id="student-card-info">
-                                                    <p><strong>{student.name}</strong></p>
-                                                    <p><strong>{student.email}</strong></p>
+                                                    <p><strong>Name:</strong> {student.name}</p>
+                                                    <p><strong>Email:</strong> {student.email}</p>
                                                 </div>
                                             </div>
                                             </Link>
